@@ -18,7 +18,7 @@ def DrawHandSort():
         continue
     Hand.sort()
 
-while True: #basic input, draw a random hand of playing cards at will, discards the hand after they are played
+while True: #basic input, draw a random hand of playing cards at will, discards the hand after the user chooses to draw more
     DrawChoice = input("Would you like to Draw Cards?").capitalize()
     if DrawChoice not in ValidChoice: #valid input check
         print("Please answer with Y or N")
